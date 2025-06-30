@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Brew Bliss</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Brew Bliss</h1>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact" class="nav-button">Contact Us</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+
+    <main>
+    <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h1>Start Your Morning with Bliss</h1>
+            <p>Freshly brewed coffee, cozy ambiance, and local charm.</p>
+
+            <br>
+            
+            <p>At Brew Bliss, coffee is more than a drink—it’s a daily ritual. Whether you’re rushing out the door or settling in for a calm afternoon, we’re here to serve freshly brewed comfort in every cup. Come for the aroma, stay for the community.</p>
+        </section>
+
+    <!-- About Us Section -->
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-column left-images">
+                    <img src="images/coffee-1.jpg" alt="Coffee process 1" />
+                    <img src="images/coffee-2.jpg" alt="Coffee process 2" />
+                </div>
+
+                <div class="about-column right-image">
+                    <img src="images/coffee-3.jpg" alt="Coffee process 3" />
+                </div>
+
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>
+                        Founded in the heart of Baguio in 2020, Brew Bliss began as a small dream shared by three friends who believed in the power of coffee to bring people together. 
+                        From our first pour-over to our locally sourced beans, our passion lies in creating an experience—not just a beverage. We take pride in our ethically sourced coffee, warm ambiance, and commitment to our community. 
+                        Whether you're grabbing a quick espresso or staying for a cozy afternoon, we want you to feel at home.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    <!-- Contact Us Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+  <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Brew Bliss. All rights reserved.</p>
+    </footer>
+
+  <!-- JavaScript -->
+    <script src="scripts/scripts.js"></script>
+    </body>
+</html>
